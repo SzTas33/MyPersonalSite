@@ -1,0 +1,152 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* 16px = 100% = 1em = 1rem*/
+  color: #66BFBF;
+}
+
+.developer-h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-size: 1rem;
+}
+
+a {
+  color: #11999E;
+}
+
+
+
+.top-container {
+  background-color: #DFF6FF;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.profile{
+  margin: 50px auto;
+}
+p{
+  line-height: 2;
+
+}
+
+.profile-text{
+  width: 35%;
+  margin:auto;
+}
+
+
+.profile-picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+hr{
+  border: dotted 7px;
+  border-bottom:none ;
+  border-color: grey;
+  width : 5%;
+  margin-bottom: 50px;
+}
+
+.skill-logos {
+  height:150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.node-logo{
+  height: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.btn{
+  display: block;
+  color: white;
+  background-image: linear-gradient(#11cdd4 , #11999E);
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  width: 10%;
+  padding: 8px 5px 8px 5px;
+  margin: 0 auto 40px auto;
+}
+
+.btn:hover{
+  background-image: linear-gradient(#30E3CB, #2BC4AD);
+}
+
+.copyright{
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  margin-top: 35px;
+}
+
+.contact-text{
+  width: 35%;
+  margin: 0 auto 45px auto;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-link{
+  color:#11999E;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
